@@ -1,0 +1,21 @@
+{
+  "name": "asdasd",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/node": "^8.2.3",
+    "@astrojs/vue": "^4.0.8",
+    "astro": "^4.4.8",
+    "vue": "^3.4.21"
+  },
+  "devDependencies": {
+    "msw": "^2.2.2"
+  }
+}
