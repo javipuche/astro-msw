@@ -8,8 +8,9 @@ const msw = () => {
     name: "test-msw",
     hooks: {
       "astro:server:start": () => {
-        if (process.env.NODE_ENV !== "development") return;
-        server.listen();
+        if (process.env.NODE_ENV === "development") {
+          server.listen();
+        }
       },
     },
   };
